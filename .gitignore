@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Local scratch file from a different exercise
+tempCodeRunnerFile.python
