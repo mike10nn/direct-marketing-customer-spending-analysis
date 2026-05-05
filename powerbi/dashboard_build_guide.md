@@ -6,6 +6,14 @@ This dashboard should explain which customer characteristics are linked to highe
 
 ## Data To Import
 
+The finished editable Power BI file is:
+
+`powerbi/DirectMarketing_Dashboard.pbix`
+
+Open this file in Power BI Desktop if you want to explore the report, adjust visuals, change formatting, or add new pages.
+
+If you want to rebuild the report manually from the source data, import this file:
+
 Import this file into Power BI:
 
 `powerbi/data/DirectMarketing_Clean.csv`

@@ -45,7 +45,7 @@ The analysis also showed that purchase history is an important variable, but mis
 
 - `DirectMarketing.csv` contains the dataset used for the analysis.
 - `mainn.ipynb` contains the full notebook with the cleaning, exploration, visualisations, and regression model.
-- `powerbi/` contains the cleaned Power BI dataset, dashboard measures, theme, preview, and build guide.
+- `powerbi/` contains the Power BI dashboard file, cleaned dataset, dashboard measures, theme, preview, and build guide.
 - `requirements.txt` lists the main Python libraries used.
 
 ## How To Run
@@ -57,6 +57,10 @@ pip install -r requirements.txt
 ```
 
 Then open `mainn.ipynb` in Jupyter Notebook, JupyterLab, or VS Code and run the cells from top to bottom.
+
+The Power BI dashboard can be opened directly from:
+
+`powerbi/DirectMarketing_Dashboard.pbix`
 
 ## Tools Used
 
