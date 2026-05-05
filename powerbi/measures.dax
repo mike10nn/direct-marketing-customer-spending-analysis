@@ -1,0 +1,39 @@
+Total Customers =
+DISTINCTCOUNT ( DirectMarketing_Clean[CustomerID] )
+
+Total Amount Spent =
+SUM ( DirectMarketing_Clean[AmountSpent] )
+
+Average Amount Spent =
+AVERAGE ( DirectMarketing_Clean[AmountSpent] )
+
+Median Amount Spent =
+MEDIAN ( DirectMarketing_Clean[AmountSpent] )
+
+Average Salary =
+AVERAGE ( DirectMarketing_Clean[Salary] )
+
+Average Catalogues Sent =
+AVERAGE ( DirectMarketing_Clean[Catalogs] )
+
+Total Catalogues Sent =
+SUM ( DirectMarketing_Clean[Catalogs] )
+
+Spend per Catalogue =
+DIVIDE ( [Total Amount Spent], [Total Catalogues Sent] )
+
+High Value Customers =
+CALCULATE (
+    [Total Customers],
+    DirectMarketing_Clean[AmountSpent] >= 2000
+)
+
+High Value Customer Share =
+DIVIDE ( [High Value Customers], [Total Customers] )
+
+Average Spend Difference vs Overall =
+[Average Amount Spent]
+    - CALCULATE (
+        [Average Amount Spent],
+        ALL ( DirectMarketing_Clean )
+    )

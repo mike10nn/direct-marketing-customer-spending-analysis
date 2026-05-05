@@ -45,6 +45,7 @@ The analysis also showed that purchase history is an important variable, but mis
 
 - `DirectMarketing.csv` contains the dataset used for the analysis.
 - `mainn.ipynb` contains the full notebook with the cleaning, exploration, visualisations, and regression model.
+- `powerbi/` contains the cleaned Power BI dataset, dashboard measures, theme, preview, and build guide.
 - `requirements.txt` lists the main Python libraries used.
 
 ## How To Run
